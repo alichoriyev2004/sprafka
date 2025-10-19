@@ -7,7 +7,9 @@
   letter-spacing: 1px; 
   text-align: center;
   }
-
+#lang{
+    letter-spacing: 1.1PX;
+}
 .con{
    
     
@@ -41,10 +43,11 @@ select{    width: 100%;
     border: 0;
     padding: 0px 8px;
     border-radius: 5px;
-    }
-    :hover{
+    &:hover{
         color: #23527c;
     }
+    }
+    
     .login{display: block;
         height: 70px;
     padding: 27px 15px;
@@ -112,3 +115,57 @@ select{    width: 100%;
     right: 0;
     bottom: 0;
    }
+   .text-con{
+    margin: 0 auto;
+    max-width: 1135px;
+    background-color: #008ddb;
+    height: 567px;
+    margin-top: 15px;
+    display: flex;
+align-items: center;
+justify-content: space-around;
+
+   }
+   .text-right{
+    padding: 0 15px;
+    
+   }
+   .auto:hover{
+color: #23527c;
+ text-decoration-line: underline;
+
+   }
+   .text-left{
+max-width: 530px;
+height: 72px;
+padding: 0 15px;
+
+   }
+   .close{    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;
+    cursor: pointer;
+    &:hover{
+        opacity: 0.4;
+    }
+}
+.div-text{text-align: left !important;
+font-size: 13px;
+letter-spacing: 0.5px; 
+
+}
+.box{
+        color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+        padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
