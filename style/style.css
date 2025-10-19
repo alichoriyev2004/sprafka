@@ -213,6 +213,12 @@ input{
     outline: none;
     letter-spacing: 0px;      
 }
+input:focus {
+  border: 1px solid #3498db;            /* 1px ko‘k border */
+  box-shadow: 0 0 8px rgba(52, 152, 219, 0.4);  /* orqadan ko‘k soyasi */
+  background: #fff;
+}
+
 button{
             color: #fff;
         background-color: #41A84B;
