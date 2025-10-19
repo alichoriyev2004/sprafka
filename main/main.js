@@ -12,7 +12,7 @@ closeBtn.addEventListener("click", () => {
 
         if (userInput === correctCode) {
           // Открытие PDF-файла в новой вкладке
-          window.open(".././pdf/касаллик варакаси Самандар.docx");
+          window.open(".././pdf/касаллик варакаси Самандар.pdf");
         } else {
           alert("Неверный код. Пожалуйста, попробуйте снова.");
         }
