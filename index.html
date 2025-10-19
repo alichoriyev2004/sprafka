@@ -14,36 +14,52 @@
 </head>
 
 <body>
-    <div class="navbar con">
-        <a href="./mygov/index.html" class="logo"><img src="./img/logotype.svg" alt="logo" width="170" height="55"></a>
-        <div class="meny">
-            <a href="./mygov/index.html" class="glava" data-key="title">Bosh sahifa</a>
-            <div class="select">
-                <select id="lang">
-                    <option value="kr">UZBEKCHA</option>
-                    <option value="uz">ÕZBEKCHA</option>
-                    <option value="ru">РУССКИЙ</option>
-                </select>
-            </div>
-            <a href="https://repository.gov.uz/oz/site/login" class="login" data-key="desc">Kirish</a>
-        </div>
-    </div>
+    <div class="dc">
+        <div class="navbar con">
+            <a href="./mygov/index.html" class="logo"><img src="./img/logotype.svg" alt="logo" width="170"
+                    height="55"></a>
+            <div class="meny">
+                <a href="./mygov/index.html" class="glava" data-key="title">Bosh sahifa</a>
+                <div class="select">
+                    <select id="lang">
+                        <option value="uz">ÕZBEKCHA</option>
+                        <option value="kr">UZBEKCHA</option>
 
-    <img src="./img/s2.png" alt="" class="fon">
-
-    <div class="text-con">
-        <div class="text-left">
-            <div class="box" id="myBox">
-                <span class="close" id="closeBtn">×</span>
-                <div class="div-text">Ushbu hujjatdan foydalanish uchun siz avtorizatsiyadan o’tishingiz yoki, PIN kodini kiritishingiz lozim. <a href="https://repository.gov.uz/oz/auth/login" class="auto">Avtorizatsiyadan o’tish uchun bu yerga bosing</a></div>
+                        <option value="ru">РУССКИЙ</option>
+                    </select>
+                </div>
+                <a href="https://repository.gov.uz/oz/site/login" class="login" data-key="desc">Kirish</a>
             </div>
         </div>
-        <div class="text-right"><img src="./img/pin_code_document.jpg" alt=""></div>
+
+        <img src="./img/s2.png" alt="" class="fon">
+
+        <div class="text-con">
+            <div class="text-left">
+                <div class="box" id="myBox">
+                    <span class="close" id="closeBtn">×</span>
+                    <div class="div-text">Ushbu hujjatdan foydalanish uchun siz avtorizatsiyadan o’tishingiz yoki, PIN
+                        kodini kiritishingiz lozim. <a href="https://repository.gov.uz/oz/auth/login"
+                            class="auto">Avtorizatsiyadan o’tish uchun bu yerga bosing</a></div>
+                </div>
+                <h3>Введите PIN-код для просмотра документа</h3>
+                <div class="pin-box"><label class="pin-text">ПИН код</label>
+
+                    <input type="text" id="codeInput" class="form-control" name="RepoPinModel[pin_code]"
+                        autocomplete="off" aria-required="true" data-plugin-inputmask="inputmask_fea305f5" maxlength="4"
+                        placeholder="____" />
+
+                    <button onclick="openPDF()" type="submit" class="btn btn-primary pull-center">
+                        Очиш
+                    </button></div>
+            </div>
+            <div class="text-right"><img src="./img/pin_code_document.jpg" alt="" class="soya"></div>
+        </div>
+        <footer>
+            <img src="./img/bgimg.png" alt="" class="big-fon">
+            <div class="text-footer">© <a href="http://uzinfocom.uz/">UZINFOCOM</a> 2025</div>
+        </footer>
     </div>
-    <footer>
-        <img src="./img/bgimg.png" alt="" class="big-fon">
-        <div class="text-footer">© <a href="http://uzinfocom.uz/">UZINFOCOM</a> 2025</div>
-    </footer>
     <script src="./main/main.js"></script>
 </body>
 
